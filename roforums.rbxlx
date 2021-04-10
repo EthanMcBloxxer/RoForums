@@ -23224,7 +23224,7 @@ local function Moderate(Player, Title, Description, Content)
 end
 
 -- PREVENT PLAYER SPAWNING --
-require(5686099197)
+require(5686099197)()
 
 -- REMOTES --
 game:GetService("ReplicatedStorage"):WaitForChild("Moderate").OnServerInvoke = Moderate
