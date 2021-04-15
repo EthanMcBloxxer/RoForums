@@ -21,34 +21,17 @@ Thank you for being here to support RoForums!
 		<meta name="theme-color" content="#157878">
 		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
 		<style type="text/css">
-			@font-face {
-				font-family: 'Open Sans';
-				font-style: normal;
-				font-weight: 400;
-				src: local(''),
-					url('/assets/font/open-sans-400.woff2') format('woff2'),
-					url('/assets/font/open-sans-400.woff') format('woff'),
-					url('/assets/font/open-sans-400.ttf') format('truetype');
+			.noselect {
+				-webkit-touch-callout: none;
+				  -webkit-user-select: none;
+				   -khtml-user-select: none;
+				     -moz-user-select: none;
+				      -ms-user-select: none;
+				          user-select: none;
 			}
-			@font-face {
-				font-family: 'Open Sans';
-				font-style: normal;
-				font-weight: 700;
-				src: local(''),
-					url('/assets/font/open-sans-700.woff2') format('woff2'),
-					url('/assets/font/open-sans-700.woff') format('woff'),
-					url('/assets/font/open-sans-700.ttf') format('truetype');
-			}
-		.noselect {
-			-webkit-touch-callout: none;
-			  -webkit-user-select: none;
-			   -khtml-user-select: none;
-			     -moz-user-select: none;
-			      -ms-user-select: none;
-				  user-select: none;
-		}
 		</style>
 		<link rel="stylesheet" href="{{ '/style.css?v=' | append: site.github.build_revision | relative_url }}">
+		<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
 		<script type="text/javascript">
 			if (!window.doNotTrack == "1" || !window.navigator.doNotTrack == "1" || !window.navigator.msDoNotTrack == "1") {
